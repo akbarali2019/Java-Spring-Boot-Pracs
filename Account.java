@@ -65,4 +65,10 @@ public class Account extends Auditable {
     @Column(name = "state")
     private String state;   // 상태
 
+    @Column(name = "iLabState")
+    private String iLabState;   // iLab상태
+
+     @Column(name = "ecoLabState")
+    private String ecoLabState;   // ecoLab상태
+
 }
