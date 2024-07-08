@@ -71,4 +71,7 @@ public class Account extends Auditable {
      @Column(name = "ecoLabState")
     private String ecoLabState;   // ecoLab상태
 
+    @Column(name = "kNexusState")
+    private String kNexusState;   // kNexus상태
+
 }
